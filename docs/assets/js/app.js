@@ -128,7 +128,7 @@ let footer = $(`
         <div class="col-lg-6 col-md-12 mb-4 mb-md-0 form-comtainer">
           <div class="form-style-6">
              <div class="form-header">
-                <h6 class="display">Get in Touch</h6>
+                <h6 class="display">Get in Touch Now</h6>
               </div>
                 <form>
                   <form action="https://formcarry.com/s/robyiR7YZkA" method="POST" accept-charset="UTF-8" >
