@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>ToDo List With VueJS</title>
+  <title>টাকা ম্যানেজমেন্ট</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
   <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
@@ -15,8 +15,10 @@
     <section class="container">
       <div class="create-task">
         <form class="form" novalidate @submit="e => e.preventDefault()">
-          <input type="text" placeholder="Type your task" v-model="valueTask" class="input-task" />
-          <button type="submit" class="button-form" @click="onSubmitForm">Add</button>
+          <input type="text" placeholder="প্রতি বার এ টাকা পাবার আকাংখা" v-model="money" class="input-task" />
+          <input type="text" placeholder="রেট" v-model="rate" class="input-task" />
+          <input type="text" placeholder="কতবার" v-model="chance" class="input-task" />
+          <button type="submit" class="button-form" @click="onSubmitForm">ক্যালকুলেট</button>
         </form>
 
 
@@ -25,16 +27,19 @@
 
       </div>
       <hr class="separator">
-      <div v-if="tasksList.length" class="list-tasks">
+      <div v-if="tasksList.length"   class="list-tasks">
         <p v-for="(task, index) in tasksList" :class="taskClass">
           <input type="checkbox" class="checkbox" v-model="task.done" />
-          <span>{{ task.name }}</span>
+          <span >  {{ task.name }}</span>
           <span class="remove-task" @click="onRemoveTask(index)">
             <span>❌</span>
           </span>
+          <p v-for="(task, index) in tasksList2" :class="taskClass">
+            <span > সর্বমোটম টাকার দরকার=  {{ task.name }}</span>
         </p>
+         
       </div>
-      <form>
+      <!--<form>
         <label for="firstNumber"></label>
         <input type="text" id="firstNumber" v-model="firstNumber">
        <br/>
@@ -44,6 +49,12 @@
         <label for="result"></label>
        <input type="text" id="result" v-model="result">
    </form>
+   -->
+
+   <!--<li v-for="(n, index) in tasksList.length">{{ n }}</li>-->
+ 
+
+
 
 
     </section>
