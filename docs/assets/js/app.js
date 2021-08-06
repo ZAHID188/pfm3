@@ -405,3 +405,21 @@ $(window).on('load', function() {
   $('.loader-container').fadeOut(2500);
 });
 
+
+
+
+// This is in the research page validation for secret code 
+
+function validateForm() {
+  let x = document.forms["myForm"]["Pass"].value;
+  console.log(x)
+  if (x == "3445") {
+    
+    
+  }
+  else {
+    alert("  Should be correct");
+    return false;
+  }
+}
+

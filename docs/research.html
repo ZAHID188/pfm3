@@ -332,7 +332,15 @@
               <div class="researchDetails">
                   <table id="researchDetailsTable">
                     ট্রেডিং এ বা যে কোনো বাজিতে টাকা ম্যানেজমেন্ট এর ওয়েব পোর্টাল 
-                      <a href="money_management/index.html">এখানে ক্লিক করুন</a>
+                   <form name="myForm" action="/money_management/index.html" onsubmit="return validateForm()" method="GET">
+                  <!--   <form> -->
+                      <input type="text" placeholder="Secret Code" id="Pass" >
+
+                    <!--  <button type="button" onclick="myFunction()">Submit</button>-->
+                      <input type="submit" value="Submit">
+                    </form>
+                   <!-- <p id="res11"></p>-->
+                      
                   </table>
               </div>
           </div>
@@ -366,6 +374,25 @@
     <script src="assets/js/app.js"></script>
     <script src="assets/js/cursor.js"></script>
     <script src="assets/js/research.js"></script>
+
+   
+    <script>
+   
+
+function myFunction() {
+  // Get the value of the input field with id="numb"
+  let x = document.getElementById("Pass").value;
+  // If x is Not a Number or less than one or greater than 10
+  let text;
+  if (x ==10) {
+    text = "Input not is 10";
+  } else {
+    text = "Input not x";
+  }
+  document.getElementById("res11").innerHTML = text;
+}
+      </script>
+ 
 
 </body>
 

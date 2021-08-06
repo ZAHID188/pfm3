@@ -56,6 +56,14 @@ new Vue({
         //this.money = ''
       }
     },
+    login(){
+      if(this.pass==1)
+      {
+       return true
+      }
+      else
+      false
+    },
 
 //devide smaller number through bigger number-percent  (percent maker)       
 /*static double ds(double a, double b)
