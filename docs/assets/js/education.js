@@ -5,11 +5,31 @@ AOS.init();
 const moocs = document.querySelector(".moocs");
 const moocscards = [
   {
-    title: "Data Science",
-    cardImage: "assets/images/education-page/coursera1.png",
-    moocLink: "https://www.coursera.org/browse/data-science",
+    title: "CS50 Web Programming",
+    cardImage: "https://pbs.twimg.com/profile_images/1383051520275587075/njoDAauC_400x400.jpg",
+    moocLink: "https://www.edx.org/course/cs50s-web-programming-with-python-and-javascript",
   },
   {
+    title: "Responsive Web Design",
+    cardImage: "assets/images/education-page/freecodecmp.png",
+    moocLink: "https://www.freecodecamp.org/certification/zahid_188/responsive-web-design",
+  },
+
+  {
+    title: "Javascript",
+    cardImage: "assets/images/education-page/sololearn.webp",
+    moocLink: "https://www.sololearn.com/Certificate/1024-11814802/jpg/",
+  },
+  {
+    title: "CSS",
+    cardImage: "https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582747_1280.png",
+    moocLink: "https://www.sololearn.com/Certificate/1023-11814802/jpg/",
+  },
+  
+ /*
+ 
+ 
+ {
     title: "Cryptography",
     cardImage: "assets/images/education-page/udemy.png",
     moocLink: "https://www.udemy.com/course/cryptography-for-beginners/",
@@ -64,6 +84,9 @@ const moocscards = [
     cardImage: "assets/images/education-page/udacity_logo.png",
     moocLink: "https://www.udacity.com/course/data-structures-and-algorithms-nanodegree--nd256",
   },
+
+
+  */
 ];
 
 const experience = [

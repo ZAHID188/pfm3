@@ -4,20 +4,21 @@ const researchTable = document.querySelector(".main");
 
 const research = [
     {
-        title : "A Batch Normalized Inference Network Keeps the KL Vanishing Away",
-        authors : "Qile Zhu, Wei Bi, Xiaojiang Liu, Xiyao Ma, Xiaolin Li and Dapeng Wu",
-        conferences : "The 58th Annual Meeting of the Association for Computational Linguistics",
+        title : "In any trading platform minimizing risk by proper money management  ",
+        authors : "MD ZAHIDUL ALAM ",
+        conferences : "Still don't have",
         researchYr : 2020,
         citebox : "popup1",
-        image : "assets/images/research-page/inteferenceNetwork.png",
+        image : "assets/images/research-page/trading_research.jpg",
         citation: {
-            vancouver: "Qile Zhu, Wei Bi, Xiaojiang Liu, Xiyao Ma, Xiaolin Li and Dapeng Wu. A Batch Normalized Inference Network Keeps the KL Vanishing Away. The 58th Annual Meeting of the Association for Computational Linguistics 2020."
+            vancouver: "You can check the link above and there you can use that calculator for money management. "
         },
-        abstract: "This is currently left empty and this can be considered as a dummy data 1",
+        abstract: "Actually, I was trying to earn some money from the option trading. That time I was searching for the solution how can I ultimately earn money without taking risk . Then I figured it out that The only way is proper money management.So, I created a simple program to manage money while trading.",
         absbox: "absPopup1"
+        
     },
 
-    {
+/*    {
         title : "A Call for More Rigor in Unsupervised Cross-lingual Learning",
         authors : "Mikel Artetxe, Sebastian Ruder, Dani Yogatama, Gorka Labaka and Eneko Agirre",
         conferences : "The 58th Annual Meeting of the Association for Computational Linguistics",
@@ -113,6 +114,7 @@ const research = [
         abstract: "This is currently left empty and this can be considered as a dummy data 8",
         absbox: "absPopup8"
     }
+*/
 ];
 AOS.init();   
 const fillData = () => {

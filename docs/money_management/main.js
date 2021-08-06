@@ -2,6 +2,9 @@ new Vue({
   el: "#app",
   data: () => ({
     result: undefined,
+    money:undefined,
+    rate:undefined,
+    chance:undefined,
     tasksList: [
       
     ],
