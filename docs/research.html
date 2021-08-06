@@ -332,14 +332,44 @@
               <div class="researchDetails">
                   <table id="researchDetailsTable">
                     ট্রেডিং এ বা যে কোনো বাজিতে টাকা ম্যানেজমেন্ট এর ওয়েব পোর্টাল 
-                   <form name="myForm" action="/money_management/index.html" onsubmit="return validateForm()" method="GET">
-                  <!--   <form> -->
-                      <input type="text" placeholder="Secret Code" id="Pass" >
+       
 
-                    <!--  <button type="button" onclick="myFunction()">Submit</button>-->
+                    <form name="myForm" action="/money_management/index.html" onsubmit="return validateForm()" method="GET">
+                      <input type="text" placeholder="Secret Code" id="Pass" >
                       <input type="submit" value="Submit">
                     </form>
-                   <!-- <p id="res11"></p>-->
+                
+
+                    <!--  vue doesn't work check the vue folder moneysecretLogin.html file in asset
+
+
+                    <form id="app23" @submit="checkForm" action="/money_management/index.html" method="">
+
+                      <input type="text" placeholder="Secret Code" id="pass" v-model="pass" name="pass" >
+                      <input type="submit" value="Submit">
+
+                    </form>
+
+                   -->
+                   
+
+                   <!--         this one for the Javascript Button submit 
+
+
+                    
+                    <form> 
+                    <input type="text" placeholder="Secret Code" id="Pass" >
+                    <button type="button" onclick="myFunction()">Submit</button>
+                    </form>
+                    <p id="res11"></p>
+
+
+                   -->
+
+
+
+
+
                       
                   </table>
               </div>
@@ -374,6 +404,11 @@
     <script src="assets/js/app.js"></script>
     <script src="assets/js/cursor.js"></script>
     <script src="assets/js/research.js"></script>
+
+
+<!-- Manually Created for the Vue-->
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.js"></script>
+    <script src="/assets/Vue/Research_Vue.js"></script>
 
    
     <script>
