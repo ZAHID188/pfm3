@@ -8,9 +8,10 @@ new Vue({
     tasksList: [
       
     ],
+    /*
     tasksList2:[ 
 
-    ],
+    ],*/
   }),
   computed: {
     taskClass() {
@@ -42,17 +43,23 @@ new Vue({
           s=s+m;
           m=(s+pr)/ex2;
           res=s.toFixed(2)
-          this.tasksList.push({ name: res})
+          this.tasksList.push({ name: i +" Time =" +res})
           
 
           temp2=temp2+s;
+          
+
+          if(i==chance){
+            var  z=temp2.toFixed(2);
+            this.tasksList.push({ name:"সর্বমোট টাকার দরকার="+z })
+          }
 
         }
 
-       var  z=temp2.toFixed(2);
-        this.tasksList2.push({ name: z})
-        
-      
+       /*
+        var  z=temp2.toFixed(2);
+            this.tasksList2.push({ name: z})
+      */
         //this.money = ''
       }
     },

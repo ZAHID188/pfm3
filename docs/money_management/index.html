@@ -30,12 +30,12 @@
       <div v-if="tasksList.length"   class="list-tasks">
         <p v-for="(task, index) in tasksList" :class="taskClass">
           <input type="checkbox" class="checkbox" v-model="task.done" />
-          <span >  {{ task.name }}</span>
+          <span >  {{ task.name }}  </span>
+          
           <span class="remove-task" @click="onRemoveTask(index)">
             <span>❌</span>
           </span>
-          <p v-for="(task, index) in tasksList2" :class="taskClass">
-            <span > সর্বমোট টাকার দরকার=  {{ task.name }}</span>
+         
         </p>
          
       </div>
