@@ -161,12 +161,18 @@ rtor(x,y){
 
   var random=Math.floor(Math.random() * 100)+1; // 1 to 100
   if(random % 2==0){
-    var res="even(জোড়) /up = "
-    this.tasksList2.push({name: res +random})
+    //var res="even(জোড়) /up = "
+    //this.tasksList2.push({name: res +random})
+
+    var res="UP"
+    this.tasksList2.push({name: res })
   }
   else{
-    var res=" odd(বিজোড়)/down = "
-    this.tasksList2.push({name: res + random})
+    //var res=" odd(বিজোড়)/down = "
+   // this.tasksList2.push({name: res + random})
+
+    var res="DOWN"
+    this.tasksList2.push({name: res })
   }
  
  },

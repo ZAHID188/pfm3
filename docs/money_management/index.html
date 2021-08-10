@@ -19,7 +19,7 @@
     <section class="container col-md-6">
         
       <div class="create-task">
-        <h1 id="MoneyMnHead" > Money Management</h1>
+        <h1 class="MoneyMnHead" > Money Management</h1>
         <form class="form" novalidate @submit="e => e.preventDefault()">
           <input type="text" placeholder="প্রতি বার এ টাকা পাবার আকাংখা" v-model="money" class="form-control-sm" />
           <input type="text" placeholder="রেট Ex: 85% = 1.85 " v-model="rate" class="form-control-sm" />
@@ -67,8 +67,12 @@
   
   
   <div class="col-md-6 container2">
+    <br><br>
     
- <div class="center">
+    <p class="center  MoneyMnHead" style="color: cornsilk;" ><b>Press Click Me and just follow up or down in any trading platform.</b></p> 
+   <hr>
+ <div class="center"> 
+   
     <button type="submit" class="btn btn-success me-2"  @click="onSubmitForm2">Click Me</button>
   </div>
     <div v-if="tasksList2.length"   class="list-tasks">
