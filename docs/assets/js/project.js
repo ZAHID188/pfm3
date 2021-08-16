@@ -4,6 +4,25 @@ const projectcards = document.querySelector(".projectcards");
 
 // Array of object for projects
 const projects = [
+
+  {
+    title: "EcomDJ",
+    cardImage: "https://miro.medium.com/max/1024/1*j_f-fL9EHgaFn4IRi7NZ7g.png",
+    description: "This is a e-commerce website using django rest-framework and vue.js",
+    Githublink: "https://github.com/ZAHID188/EcomDJ",
+  },
+
+  {
+    title: "Poker Game",
+    cardImage: "https://raw.githubusercontent.com/TeamV5/ISPYZU/main/Pictures/gitup.png",
+    description: "Poker game built using typescript.",
+    tagimg: "https://miro.medium.com/max/816/1*mn6bOs7s6Qbao15PMNRyOA.png",
+    Previewlink: "",
+    Githublink: "",
+  },
+
+
+  /*
   {
     title: "Quiz App",
     cardImage: "assets/images/project-page/quiz.jpg",
@@ -102,6 +121,8 @@ const projects = [
     Previewlink: "",
     Githublink: "",
   },
+
+  */
 ];
 
 // function for rendering project cards data
