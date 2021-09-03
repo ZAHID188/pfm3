@@ -5,6 +5,7 @@ AOS.init();
 
 const experiencecards = document.querySelector(".experience-cards");
 const exp = [
+  /*
   {
     title: "Software Development Intern",
     cardImage: "assets/images/experience-page/flipkart.jpg",
@@ -26,6 +27,7 @@ const exp = [
     time: "(Dec, 19 - Jan, 20)",
     desp:"<li>Worked on the project “LTI (Learning Tools Interoperability) 2.0 standards Implementation for ekShiksha.</li><li>Designed a software that would help faculty to create a quiz using the questions from the database based on his/her choice of topics and he should be provided with various facilities and options to create a quiz of his choice.</li>",
   },
+  */
 ];
 
 const showCards2 = () => {
@@ -62,7 +64,18 @@ document.addEventListener("DOMContentLoaded", showCards2);
 // Volunteership Cards
 
 const volunteership = document.querySelector(".volunteership");
-const volunteershipcards = [
+const volunteershipcards = [ 
+
+  {
+    title: "FreeCodeCamp Responsive Web Design.",
+    cardImage: "assets/images/experience-page/codecamp_responsive.png",
+    description:
+      "Building a Responsive website using Html,Css.",
+  },
+
+
+  /*
+  
   {
     title: "GirlScript Summer Of Code 2020",
     cardImage: "assets/images/experience-page/1.jpg",
@@ -87,6 +100,7 @@ const volunteershipcards = [
     description:
       "Mentoring for the open source projects Deeppixel, Awesome Developer Portfolios and Doc2Pen.",
   },
+  */
 ];
 
 const showCards = () => {
@@ -114,6 +128,7 @@ document.addEventListener("DOMContentLoaded", showCards);
 
 const hackathonsection = document.querySelector(".hackathon-section");
 const mentor = [
+  /*
   {
     title: "The Uplift Project",
     subtitle: "Metor",
@@ -204,6 +219,7 @@ const mentor = [
     image: "assets/images/experience-page/nhacks.png",
     desp: "NHacks VI was a hackathon that aimed to encourage students everywhere to develop skills in computer science by creating tangible products that they're proud of. It initially started as Michigan's largest high school hackathon.",
   }
+  */
   
 
 ];

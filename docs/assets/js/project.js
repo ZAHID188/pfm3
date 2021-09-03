@@ -13,12 +13,11 @@ const projects = [
   },
 
   {
-    title: "Poker Game",
+    title: "ISPYZU",
     cardImage: "https://raw.githubusercontent.com/TeamV5/ISPYZU/main/Pictures/gitup.png",
-    description: "Poker game built using typescript.",
-    tagimg: "https://miro.medium.com/max/816/1*mn6bOs7s6Qbao15PMNRyOA.png",
-    Previewlink: "",
-    Githublink: "",
+    //tagimg: "https://miro.medium.com/max/816/1*mn6bOs7s6Qbao15PMNRyOA.png",
+    description: "This is a e-commerce website using django rest-framework and vue.js",
+    Githublink: "https://github.com/TeamV5/ISPYZU",
   },
 
 
