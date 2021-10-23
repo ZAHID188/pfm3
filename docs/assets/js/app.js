@@ -151,7 +151,8 @@ let footer = $(`
              <div class="form-header">
                 <h6 class="display">Get in Touch Now</h6>
               </div>
-                <h1> Email: zahidpranta5@gmail.com <br> Phone: +8801829716697</h1>
+              
+                <h1 style="background-color:transparent"> Email: zahidpranta5@gmail.com <br> Phone: +8801829716697</h1>
                 
                   
              </div>
