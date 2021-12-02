@@ -21,7 +21,7 @@ let header = $(`
    <li class="nav-item"><a class="nav-link" href="research.html">Research</a></li>
    <!-- <li class="nav-item"><a class="nav-link" href="research.html">Contact</a></li> -->
     <li class="nav-item"><a class="nav-link" href="education.html">Education</a></li> 
-   <li class="nav-item"><a class="nav-link" href="./assets/docs/Zahid.pdf" target="_blank">Resume</a></li>
+   <li class="nav-item"><a class="nav-link" href="./assets/docs/Resume_Updated.pdf" target="_blank">Resume</a></li>
    <li class="nav-item">
    <input type="checkbox" class="dark_toggler" aria-label="Toggle Light Mode" onclick="toggle_light_mode()">
    </li>
