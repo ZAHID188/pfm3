@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>টাকা ম্যানেজমেন্ট</title>
+  <title>Money Management</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
   <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
@@ -21,9 +21,9 @@
       <div class="create-task">
         <h1 class="MoneyMnHead" > Money Management</h1>
         <form class="form" novalidate @submit="e => e.preventDefault()">
-          <input type="text" placeholder="প্রতি বার এ টাকা পাবার আকাংখা" v-model="money" class="form-control-sm" />
-          <input type="text" placeholder="রেট Ex: 85% = 1.85 " v-model="rate" class="form-control-sm" />
-          <input type="text" placeholder="কতবার" v-model="chance" class="form-control-sm" /> <!-- class="input-task" />-->
+          <input type="text" placeholder="how much u want to earn in every trade?" v-model="money" class="form-control-sm" />
+          <input type="text" placeholder="Rate Ex: 85% = 1.85 " v-model="rate" class="form-control-sm" />
+          <input type="text" placeholder="at least win 1 out of how many trade?" v-model="chance" class="form-control-sm" /> <!-- class="input-task" />-->
           <button type="submit" class="form-control-sm" @click="onSubmitForm" style="color: rgb(255, 2, 2);">ক্যালকুলেট</button>
         </form>
 
