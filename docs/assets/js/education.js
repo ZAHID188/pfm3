@@ -14,6 +14,7 @@ const moocscards = [
     cardImage: "assets/images/education-page/freecodecmp.png",
     moocLink: "https://www.freecodecamp.org/certification/zahid_188/responsive-web-design",
   },
+  
 
   {
     title: "Javascript",
@@ -24,6 +25,11 @@ const moocscards = [
     title: "CSS",
     cardImage: "https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582747_1280.png",
     moocLink: "https://www.sololearn.com/Certificate/1023-11814802/jpg/",
+  },
+  {
+    title: "WordPress",
+    cardImage: "assets/images/education-page/wordpress.jpg",
+    moocLink: "https://www.udemy.com/certificate/UC-240e51f7-738c-4c38-9384-da082ef15d90/",
   },
   
  /*

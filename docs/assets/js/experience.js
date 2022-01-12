@@ -11,7 +11,7 @@ const exp = [
     cardImage: "assets/images/experience-page/codecamp_responsive.png",
     place: "Online",
     time: "(May - 2, 2021)",
-    desp: "<li>Building a Responsive website using Html and CSS</li> <li>https://freecodecamp.org/certification/zahid_188/responsive-web-design</li>",
+    desp: "<li>Building a Responsive website using Html and CSS</li> <li><a herf='https://freecodecamp.org/certification/zahid_188/responsive-web-design'>Click</a></li>",
   },
    /*
   {
