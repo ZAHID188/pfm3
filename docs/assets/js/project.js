@@ -19,7 +19,7 @@ const projects = [
     cardImage: "https://raw.githubusercontent.com/YZU-SE/Automated-Attendance-Using-Face-Recognition/main/design/facecamon.png",
     //tagimg: "https://miro.medium.com/max/816/1*mn6bOs7s6Qbao15PMNRyOA.png",
     description: "This is my university graduation project. Well, Here I've implemented the face detection based attendace system using django. Basically here two main functionality is public what is attendance IN and attendace OUT . and then the time of the attendance in and out will be stored in the database. We can visualize and print the informations.",
-    Githublink: "https://github.com/TeamV5/ISPYZU",
+    Githublink: "https://github.com/YZU-SE/Automated-Attendance-Using-Face-Recognition",
   },
   {
     title: "Binimoy",
